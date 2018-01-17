@@ -1,0 +1,13 @@
+#pageA{
+    width: 500px;
+}
+
+.center{
+    text-align: center;
+    justify-content: center;
+    vertical-align: center;
+}
+
+.buttonAccueil{
+    font-size: 1.3em;
+}

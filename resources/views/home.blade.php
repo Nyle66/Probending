@@ -20,7 +20,7 @@
                         <br><br>
                         <button class="buttonAccueil"><a href="{{ url('/profil') }}">Go to Profil</a></button>
                         <br><br>
-                        <button class="buttonAccueil"><a href="{{ url('/game') }}">Go to Play</a></button>
+                        <button class="buttonAccueil"><a href="{{ url('/game') }}">Go to Game Stats</a></button>
                     
                     </div>
                     

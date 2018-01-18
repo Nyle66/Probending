@@ -20,6 +20,16 @@ Route::get('/profil',array(
     'uses'=>'Controller@profilMethod'
 ));
 
+Route::get('/edit',array(
+    'as'=>'edit',
+    'uses'=>'Controller@editMethod'
+));
+
+Route::post('/editForm',array(
+    'as'=>'editForm',
+    'uses'=>'Controller@editFormService'
+));
+
 Route::get('/game',array(
     'as'=>'game',
     'uses'=>'Controller@gameMethod'

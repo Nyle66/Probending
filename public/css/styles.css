@@ -11,3 +11,9 @@
 .buttonAccueil{
     font-size: 1.3em;
 }
+
+.avatar{
+    border: 1px solid black;
+    width: 20%;
+    height: 30%;
+}
